@@ -1,15 +1,10 @@
-import AvailablePosition from "./components/AvailablePosition";
-import EmployessGraph from "./components/EmployessGraph";
 import Layout from "./components/Layout";
-import TitleNotification from "./components/TitleNotification";
+import ResponsibleContainer from "./components/ResponsibleContainer";
 
 const App = () => {
   return (
     <Layout>
-      <div>oi</div>
-      <AvailablePosition />
-      <EmployessGraph />
-      <TitleNotification />
+      <ResponsibleContainer />
     </Layout>
   );
 };
