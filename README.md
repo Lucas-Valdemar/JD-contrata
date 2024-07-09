@@ -1,8 +1,36 @@
-# React + Vite
+# Contrata Dashboard-JD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Grupo 4
 
-Currently, two official plugins are available:
+<br>
+Membros<br>
+- Ana Angélica<br>
+- Caio<br>
+- Deivid Mesquita<br>
+- Larissa<br>
+- Valdemar<br>
+<br>
+Link do repositório online:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- https://github.com/Lucas-Valdemar/JD-contrata
+
+Link do preview online:
+
+- https://jd-contrata.vercel.app/
+
+#### Passo a passo de como iniciar o projeto localmente
+
+Antes de começar, certifique-se de ter instalado na sua máquina o git e o node.js
+git : https://git-scm.com/downloads
+node.js : https://nodejs.org/pt
+
+1. Entre na pasta a qual irá armazenar o repo local e abra o terminal nela.
+2. No terminal execute os comandos na seguinte ordem:
+
+- git clone https://github.com/Lucas-Valdemar/JD-contrata
+- cd JD-contrata
+- npm i
+- code . (opcional, para abrir o vscode.)
+- npm run dev (para iniciar a aplicação, mantenha o terminal aberto para mantê-lo executado)
+
+Se tudo tiver sido feito corretamente, o site deve iniciar no endereço padrão http://localhost:5173

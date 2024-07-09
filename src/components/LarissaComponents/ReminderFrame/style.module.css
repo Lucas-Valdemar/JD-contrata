@@ -1,0 +1,6 @@
+/* aqui funciona igual o css vanila, .nome_da_classe{} ou #id_da_classe{}
+usar underline para espaços ao invés de hífen */
+
+.minha_div {
+  color: blueviolet;
+}
