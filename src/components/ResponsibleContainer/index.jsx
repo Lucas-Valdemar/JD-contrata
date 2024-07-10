@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import DeividComponents from "../DeividComponents";
 import AnaComponents from "../AnaComponents";
-import TitleNotification from "../LarissaComponents";
+import LarissaComponent from "../LarissaComponents";
 import AnnounAndReminders from "../AnnounAndReminders";
 import RecentlyActivity from "../RecentlyActivity";
 
@@ -23,7 +23,7 @@ const ResponsibleContainer = () => {
       <AnaComponents />
       <AnnounAndReminders />
       <RecentlyActivity />
-      <TitleNotification />
+      <LarissaComponent />
     </div>
   );
 };
