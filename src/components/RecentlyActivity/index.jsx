@@ -9,7 +9,7 @@ const RecentlyActivity = () => {
     totalActivities: "12",
   };
   return (
-    <div className="bg-[#161E54] rounded-[10px] flex flex-col text-white pl-5 pb-[31px]">
+    <div className="bg-[#161E54] rounded-[10px] flex flex-col text-white pl-5 pb-[31px] sm:h-[424px]">
       <div className="bg-[#1B204A] rounded-t-[10px]">
         <h1 className=" font-medium text-base py-4">Recently Activity</h1>
       </div>
