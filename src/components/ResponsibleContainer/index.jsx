@@ -19,7 +19,7 @@ const ResponsibleContainer = () => {
 
   return (
     <>
-      <h1 className="font-medium text-[#161E54] text-xl my-[5px] mx-5">
+      <h1 className="font-medium text-[#161E54] text-xl my-[5px] mx-5 sm:mx-[7%] lg:mx-[4.2%]">
         Dashboard
       </h1>
       <div className={style.dash_board}>
@@ -32,13 +32,13 @@ const ResponsibleContainer = () => {
         <div id="thirdSection" className={style.thirdSection}>
           <AnnounAndReminders />
         </div>
-
+<div className={style.fourthAndFifth}>
         <div id="fourthSection" className={style.fourthSection}>
           <RecentlyActivity />
         </div>
         <div id="fifthSection" className={style.fifthSection}>
           <LarissaComponent />
-        </div>
+        </div></div>
       </div>
     </>
   );

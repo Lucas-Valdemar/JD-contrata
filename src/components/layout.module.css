@@ -1,0 +1,27 @@
+
+.children {
+    grid-area: children
+}
+.sidebar{
+grid-area: sidebar
+}
+.header {
+    grid-area: header
+}
+.main {
+    grid-area: main
+}
+
+@media (min-width: 40rem) { 
+    .page_container {
+        display: grid;
+        grid-template-areas:'sidebar main';
+        grid-template-columns: 10vw 90vw;
+    }
+
+    
+}
+@media (min-width: 64rem) {
+    .page_container {grid-template-columns: 16.8vw 83.2vw;}
+    
+ }
