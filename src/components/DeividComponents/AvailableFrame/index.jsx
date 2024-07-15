@@ -16,9 +16,9 @@ const bgVariants ={
 }
 
 const textVariants = {
-  textOrange: "text-[#FF5151] font-medium text-base",
-  textBlue: "text-[#3786F1] font-medium text-base",
-  textPink: "text-[#EE61CF] font-medium text-base"
+  textOrange: "text-[#FF5151] font-medium text-base ",
+  textBlue: "text-[#3786F1] font-medium text-base ",
+  textPink: "text-[#EE61CF] font-medium text-base "
 }
  
 
@@ -26,7 +26,7 @@ const textVariants = {
 
   return (
   <div className={`${bgVariants[dataInfo.bgColor]}`}>
-    <div className="font-medium text-[#161E54] text-lg">{dataInfo.title}</div>
+    <div className="font-medium text-[#161E54] text-lg ">{dataInfo.title}</div>
     <div className="font-medium text-[#161E54] text-4xl">{dataInfo.number}</div>
     <div className={`${textVariants[dataInfo.textColor]}`} >{`${dataInfo.extraNumber}  ${dataInfo.extra}`}</div>
   </div>

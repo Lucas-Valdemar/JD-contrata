@@ -44,7 +44,9 @@
   }
   
   .firstSection {
-    height: 9.375rem;
+    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
   }
   .secondSection {
     height: 12.9375rem;
