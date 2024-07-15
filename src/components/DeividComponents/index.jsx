@@ -10,24 +10,24 @@ const DeividComponents = () => {
     bgColor: "#FFEFE7"
   };
   const secondItem = {
-    title: "Posição Disponível",
-    number: "24",
-    extra: "Urgências",
+    title: "Vaga de Emprego",
+    number: "10",
+    extra: "Contratação Ativa",
     extraNumber: "4",
-    bgColor: "rgba(232, 240, 251, 1)"
+    bgColor: "#FFF"
   }; 
   const thirdItem = {
-    title: "Posição Disponível",
+    title: "Novos Funcionários",
     number: "24",
-    extra: "Urgências",
+    extra: "Departamento",
     extraNumber: "4",
     bgColor: "#FDEBF9"
   };  
   return (
     <div className="flex flex-col gap-[14px]">
-      <AvailableFrame dataInfo={firstItem}/>
-      <AvailableFrame dataInfo={secondItem}/>
-      <AvailableFrame dataInfo={thirdItem}/>
+      <AvailableFrame key={1} dataInfo={firstItem}/>
+      <AvailableFrame key={2} dataInfo={secondItem}/>
+      <AvailableFrame key={3} dataInfo={thirdItem}/>
 
     </div>
   );
