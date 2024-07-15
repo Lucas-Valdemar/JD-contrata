@@ -1,15 +1,14 @@
 // src/Layout.jsx
 import React from "react";
-import { useMediaQuery } from "react-responsive";
+import style from "./layout.module.css"
 
 const Layout = ({ children }) => {
-  const isTablet = useMediaQuery({ query: "(min-width: 425px)" });
 
   return (
-    <div className="flex h-screen ">
-      <aside className={isTablet ? "w-1/4 bg-gray-800 text-white" : "hidden"}>
+    <div className={`${"flex h-screen "} ${style.page_container}`}>
+      <aside className={` ${"hidden bg-gray-800 text-white sm:block"} ${style.sidebar}`}>
         <div className="p-4">
-          <h1 className="text-2xl font-bold">Sidebar</h1>
+          <h1 className= {`${"text-2xl font-bold"}`} >Sidebar</h1>
           <nav>
             <ul>
               <li className="mt-2">Item 1</li>
@@ -19,11 +18,11 @@ const Layout = ({ children }) => {
           </nav>
         </div>
       </aside>
-      <main className="flex-1 bg-white">
-        <header className="bg-white shadow p-4">
+      <main className= {`${"flex-1 bg-white"} ${style.main}`} >
+        <header className= {`${"bg-white shadow p-4"} ${style.header}`} >
           <h1 className="text-xl font-bold">Header</h1>
         </header>
-        <div>{children}</div>
+        <div  className={`${style.children}`}>{children}</div>
       </main>
     </div>
   );

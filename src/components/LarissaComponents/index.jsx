@@ -6,7 +6,7 @@ import FooterButton from "../AnnounAndReminders/FooterButton";
 
 const LarissaComponents = () => {
   return (
-    <div className="pt-[17px] pb-[9px] rounded-[12px] border-[rgb(224,224,224)] border-[1px] border-solid flex flex-col mb-8 sm:h-[424px]">
+    <div className="pt-[17px] pb-[9px] rounded-[12px] border-[rgb(224,224,224)] border-[1px] border-solid flex flex-col">
       <div className="flex justify-between items-center mx-5 pb-[15px]">
         <h1 className="text-[#161E54] font-medium text-[15px]">
           Próximas Atividades
