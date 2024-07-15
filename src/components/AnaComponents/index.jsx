@@ -4,9 +4,23 @@ import GraphFrame from "./GraphFrame";
 
 const AnaComponents = () => {
   return (
-    <div>
-      <h1 className={style.exemplo}>Ana Angélica</h1>
-      <GraphFrame />
+    <div className="cards">
+      <div className={style.container}>
+        <GraphFrame 
+          title="Total de Funcionários" 
+          totalEmployees={216} 
+          maleEmployees={120} 
+          femaleEmployees={96} 
+          percentageChange={2} 
+        />
+        <GraphFrame 
+          title="Solicitação de Talento" 
+          totalEmployees={16} 
+          maleEmployees={6} 
+          femaleEmployees={10} 
+          percentageChange={5} 
+        />
+      </div>
     </div>
   );
 };

@@ -1,15 +1,22 @@
 import React from "react";
 import style from "./style.module.css";
 
-// para aplicar estilos a div, adicione uma classe da seguinte forma:
-// className={style.nome_da_classe}
-// e então é so aplicar estilos normalmente dentro do arquivo "style.module.css"
-//  que está dentro da mesma pasta.
-
-// A estilização também pode ser feita utilizando tailwind (já está instalado)
-
-const GraphFrame = () => {
-  return <div className={style.minha_div}>Comece a partir daqui!</div>;
+const GraphFrame = ({ title, totalEmployees, maleEmployees, femaleEmployees, percentageChange }) => {
+  return (
+    <div className={style.container1}>
+      <div className={style.funcionarios}>
+        <h2>{title}</h2>
+        <p className={style.contagem}>{totalEmployees}</p>
+        <div className={style.distribuicao}>
+          <p>{maleEmployees} Homens</p>
+          <p>{femaleEmployees} Mulheres</p>
+        </div>
+        <div className={style.percentual}>
+          <span>+{percentageChange}% Mês passado</span> 
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default GraphFrame;
