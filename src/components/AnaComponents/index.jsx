@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style.module.css";
+import style from "./index.module.css";
 import GraphFrame from "./GraphFrame";
 import graph1 from "../../assets/graph1.png";
 import graph2 from "../../assets/graph2.png";

@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards > div {
+  display: flex;
+  gap: 20px; 
+}
