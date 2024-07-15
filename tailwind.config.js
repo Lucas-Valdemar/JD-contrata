@@ -7,6 +7,7 @@ export default {
         sans: ["Poppins", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      
     },
   },
   plugins: [],
