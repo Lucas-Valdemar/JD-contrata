@@ -4,8 +4,8 @@ import GraphFrame from "./GraphFrame";
 
 const AnaComponents = () => {
   return (
-    <div className="cards">
-      <div className={style.container}>
+    <div className={style.cards}>
+      <div>
         <GraphFrame 
           title="Total de Funcionários" 
           totalEmployees={216} 

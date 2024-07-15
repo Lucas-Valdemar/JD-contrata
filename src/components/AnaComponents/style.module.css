@@ -1,4 +1,4 @@
-.exemplo {
-  color: blue;
-  border: 1px solid;
+.cards {
+  display: flex;
+  justify-content: space-between;  
 }
