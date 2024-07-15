@@ -1,9 +1,6 @@
 .firstSection {
   grid-area: firstSection;
-  width: 100%;
-  border: solid 1px black;
-  border-radius: 8px;
-  height: 9.375rem;
+
 }
 .secondSection {
   grid-area: secondSection;
@@ -56,6 +53,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    max-height: 26.5rem;
   }
   .fourthSection{
     width: 41.8%;
@@ -83,6 +81,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-height: none;
+
+    
   }
   .firstSection {
     height: 8.5rem;
@@ -96,5 +97,6 @@
   }
   .fifthSection {
     width: 100%;
+    margin-top: auto;
   }
 }

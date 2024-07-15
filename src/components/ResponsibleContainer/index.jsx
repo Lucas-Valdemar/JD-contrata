@@ -32,13 +32,14 @@ const ResponsibleContainer = () => {
         <div id="thirdSection" className={style.thirdSection}>
           <AnnounAndReminders />
         </div>
-<div className={style.fourthAndFifth}>
+      <div className={style.fourthAndFifth}>
         <div id="fourthSection" className={style.fourthSection}>
           <RecentlyActivity />
         </div>
         <div id="fifthSection" className={style.fifthSection}>
           <LarissaComponent />
-        </div></div>
+        </div>
+      </div>
       </div>
     </>
   );
