@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 
 
-const GraphFrame = ({ title, totalEmployees, maleEmployees, femaleEmployees, percentageChange }) => {
+const GraphFrame = ({ image, title, totalEmployees, maleEmployees, femaleEmployees, percentageChange }) => {
   return (
     <div className={style.container}>
       <div className={style.funcionarios}>
@@ -14,7 +14,7 @@ const GraphFrame = ({ title, totalEmployees, maleEmployees, femaleEmployees, per
         </div>
       </div>
       <div className={style.percentual}>
-      <p>talvez algo</p>
+      <img src={image} alt="porcentagem" />
         <span>+{percentageChange}% Mês passado</span> 
       </div>
     </div>
