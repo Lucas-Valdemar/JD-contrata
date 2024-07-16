@@ -2,7 +2,6 @@
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #E0E0E0;
-  padding: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -10,6 +9,8 @@
 }
 
 .funcionarios {
+  margin-left: 20px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,6 +63,4 @@
 }
 
 
-@media (min-width: 40rem) {
-
-}
+@media (min-width: 40rem) {}

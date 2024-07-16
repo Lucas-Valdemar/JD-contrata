@@ -27,7 +27,7 @@ const DeividComponents = () => {
     textColor: "textPink"
   };  
   return (
-    <div className="flex flex-col gap-[14px] sm:flex-row ">
+    <div className="flex flex-col gap-[14px] sm:flex-row">
       <AvailableFrame key={1} dataInfo={firstItem}/>
       <AvailableFrame key={2} dataInfo={secondItem}/>
       <AvailableFrame key={3} dataInfo={thirdItem}/>

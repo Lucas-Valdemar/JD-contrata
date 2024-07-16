@@ -8,18 +8,10 @@ import AnnounAndReminders from "../AnnounAndReminders";
 import RecentlyActivity from "../RecentlyActivity";
 
 const ResponsibleContainer = () => {
-  // const isDesktop = useMediaQuery({
-  //   query: "(min-width: 1024px)",
-  // });
-  // const isTablet = useMediaQuery({ query: "(min-width: 425px)" });
-
-  // const desktopContainer = "flex";
-  // const tabletContainer = "flex";
-  const mobileContainer = "flex flex-col w-auto mx-5 gap-[26px]";
-
+  // mx-5 sm:mx-[7%] lg:mx-[4.2%]
   return (
     <>
-      <h1 className="font-medium text-[#161E54] text-xl my-[5px] mx-5 sm:mx-[7%] lg:mx-[4.2%]">
+      <h1 className="font-medium text-[#161E54] text-xl my-[10px] ">
         Dashboard
       </h1>
       <div className={style.dash_board}>

@@ -26,7 +26,7 @@
 .dash_board {
   display: flex;
   flex-direction: column;
-  margin-inline: 1rem;
+  /* margin-inline: 1rem; */
   gap: 1.625rem;
 }
 
@@ -43,10 +43,11 @@
   .firstSection {
     text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden; 
+  overflow-y: hidden; 
   }
   .secondSection {
-    height: 12.9375rem;
+    min-height: 13.125rem;
+
   }
   .fourthAndFifth{
     flex-direction: row;
@@ -71,9 +72,10 @@
     'secondSection fourthAndFifth'
     'thirdSection fourthAndFifth'
     ;
-    grid-template-columns: 53.4% 35.6%;
-    margin-inline: 4.2%;
-
+    grid-template-columns: 64.4% 35.6%;
+    /* margin-inline: 4.2%;  */
+    /* gap: 1rem;
+    padding-right: 1rem; */
   }
   .fourthAndFifth {
     grid-area: fourthAndFifth;
@@ -85,10 +87,10 @@
     
   }
   .firstSection {
-    height: 8.5rem;
+    height: 136px;
   }
   .secondSection {
-    height: 11.875rem;
+    min-height: auto;
   }
   .fourthSection {
     width: 100%;
@@ -96,6 +98,5 @@
   }
   .fifthSection {
     width: 100%;
-    margin-top: auto;
   }
 }

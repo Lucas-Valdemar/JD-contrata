@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="flex h-screen">
-      <aside className="bg-[#FAFAFA] border-r border-[#f1f1f1] h-full hidden sm:flex sm:w-24 lg:w-60 flex-col lg:px-7 py-7 items-center gap-12 ">
+      <aside className="bg-[#FAFAFA] border-r border-[#f1f1f1] h-[107%] hidden sm:flex sm:w-24 lg:w-60 flex-col lg:px-7 py-7 items-center gap-12 ">
         <h1 className="text-2xl font-semibold text-[#FF5151]">
           <span className="hidden lg:inline">Contrata </span>;D
         </h1>
@@ -89,7 +89,7 @@ const Layout = ({ children }) => {
         </nav>
       </aside>
       <div className="flex-1 bg-white">
-        <header className="bg-white p-4 border-b border-[#f1f1f1] flex flex-row justify-between items-center">
+        <header className="bg-white p-4 border-b border-[#f1f1f1] flex flex-row justify-between items-center mb-[11px]">
           <div className="flex gap-5 justify-between items-center">
             <Menu className="sm:hidden" size={18} />
             <div className="hidden sm:flex border rounded-md px-4 py-1.5 items-center w-60">
@@ -116,7 +116,7 @@ const Layout = ({ children }) => {
             </div>
           </div>
         </header>
-        <main>{children}</main>
+        <main className="px-5  sm:px-[7%] lg:px-[4.2%]">{children}</main>
       </div>
     </div>
   );

@@ -13,11 +13,11 @@ const GraphFrame = ({ image, title, totalEmployees, maleEmployees, femaleEmploye
           <p>{maleEmployees} Homens</p>
           <p>{femaleEmployees} Mulheres</p>
         </div>
-      </div>
+      </div> <div className="mr-5">
       <div className={style.percentual}>
       <img src={image} alt="porcentagem" />
         <span>+{percentageChange}% Mês passado</span> 
-      </div>
+      </div></div>
     </div>
   </div>
   );

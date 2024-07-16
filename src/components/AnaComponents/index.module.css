@@ -2,16 +2,21 @@
   display: flex;
   justify-content: space-between;
   gap: 20px; 
- flex-direction: column;
-
+  flex-direction: column;
 }
 
 @media (min-width: 40rem) {
 
   .cards {
     flex-direction: row;
-    text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden; 
+   
   }
+}
+
+@media (min-width: 64rem) {
+ .cards {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-y: hidden; 
+ }
 }
