@@ -7,7 +7,6 @@ import graph2 from "../../assets/graph2.png";
 const AnaComponents = () => {
   return (
     <div className={style.cards}>
-      <div>
         <GraphFrame 
           title="Total de Funcionários" 
           totalEmployees={216} 
@@ -24,7 +23,7 @@ const AnaComponents = () => {
           percentageChange={5}
           image={graph2} 
         />
-      </div>
+      
     </div>
   );
 };

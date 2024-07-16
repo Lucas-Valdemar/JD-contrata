@@ -3,10 +3,11 @@ import style from "./style.module.css";
 
 
 const GraphFrame = ({ image, title, totalEmployees, maleEmployees, femaleEmployees, percentageChange }) => {
-  return (
+  return ( 
+  <div className="w-full">
     <div className={style.container}>
       <div className={style.funcionarios}>
-        <h2>{title}</h2>
+        <h2 className={style.h2}>{title}</h2>
         <p className={style.contagem}>{totalEmployees}</p>
         <div className={style.distribuicao}>
           <p>{maleEmployees} Homens</p>
@@ -18,6 +19,7 @@ const GraphFrame = ({ image, title, totalEmployees, maleEmployees, femaleEmploye
         <span>+{percentageChange}% Mês passado</span> 
       </div>
     </div>
+  </div>
   );
 };
 

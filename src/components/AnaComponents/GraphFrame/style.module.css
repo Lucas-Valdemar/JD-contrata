@@ -3,7 +3,7 @@
   border-radius: 8px;
   border: 1px solid #E0E0E0;
   padding: 20px;
-  width: 312px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +15,8 @@
   justify-content: space-between;
   width: 70%; 
 }
-
-h2 {
+  
+.h2 {
   font-size: 15px;
   color: #161E54;
 }
@@ -62,3 +62,6 @@ h2 {
 }
 
 
+@media (min-width: 40rem) {
+
+}
