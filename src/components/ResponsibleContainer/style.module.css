@@ -1,0 +1,104 @@
+.firstSection {
+  grid-area: firstSection;
+
+}
+.secondSection {
+  grid-area: secondSection;
+  height: 27rem;
+  border: solid 1px black;
+  border-radius: 8px;
+}
+.thirdSection {
+  grid-area: thirdSection;
+}
+.fourthSection {
+  grid-area: fourthSection;
+}
+.fifthSection {
+  grid-area: fifthSection;
+}
+.fourthAndFifth{
+  grid-area: fourthAndFifth;
+  display: flex;
+  flex-direction: column;
+  gap:1.25rem
+
+}
+
+.dash_board {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 1.25rem;
+  gap: 1.625rem;
+}
+
+@media (min-width: 40rem) {
+  .dash_board {
+    display: grid;
+    grid-template-areas:
+      "firstSection firstSection"
+      "secondSection secondSection"
+      "thirdSection thirdSection"
+      "fourthAndFifth fourthAndFifth";
+      margin-inline: 7%;
+  }
+  
+  .firstSection {
+    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
+  }
+  .secondSection {
+    height: 12.9375rem;
+  }
+  .fourthAndFifth{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    max-height: 26.5rem;
+  }
+  .fourthSection{
+    width: 41.8%;
+  }
+  .fifthSection {
+     width: 54.2%;
+  }
+  
+}
+
+@media (min-width: 64rem) {
+  .dash_board {
+    width: 100%;
+    grid-template-areas: 
+    'firstSection fourthAndFifth'
+    'secondSection fourthAndFifth'
+    'thirdSection fourthAndFifth'
+    ;
+    grid-template-columns: 53.4% 35.6%;
+    margin-inline: 4.2%;
+
+  }
+  .fourthAndFifth {
+    grid-area: fourthAndFifth;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: none;
+
+    
+  }
+  .firstSection {
+    height: 8.5rem;
+  }
+  .secondSection {
+    height: 11.875rem;
+  }
+  .fourthSection {
+    width: 100%;
+
+  }
+  .fifthSection {
+    width: 100%;
+    margin-top: auto;
+  }
+}
