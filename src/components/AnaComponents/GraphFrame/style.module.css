@@ -1,6 +1,66 @@
-/* aqui funciona igual o css vanila, .nome_da_classe{} ou #id_da_classe{}
-usar underline para espaços ao invés de hífen */
-
-.minha_div {
-  color: blueviolet;
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.funcionarios {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%; 
+}
+  
+.h2 {
+  font-size: 15px;
+  color: #161E54;
+}
+
+.contagem {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #161E54;
+}
+
+.distribuicao {
+  margin: 10px 0;
+}
+
+.distribuicao p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #6B7280;
+}
+
+.percentual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 107px; 
+  height: 24px;
+  text-align: center;
+}
+
+.percentual img {
+  width: 100%;
+  height: auto;
+}
+
+.percentual span {
+  background-color: #FFEFE7;
+  color: #686868;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 40rem) {}

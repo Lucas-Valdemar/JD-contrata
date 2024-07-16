@@ -1,21 +1,16 @@
 .firstSection {
   grid-area: firstSection;
-  width: 100%;
-  border: solid 1px black;
-  border-radius: 8px;
-  height: 9.375rem;
+
 }
 .secondSection {
   grid-area: secondSection;
-  height: 27rem;
-  border: solid 1px black;
-  border-radius: 8px;
+ 
 }
 .thirdSection {
   grid-area: thirdSection;
 }
 .fourthSection {
-  grid-area: fourthSection;
+  grid-area: fourthSection;     
 }
 .fifthSection {
   grid-area: fifthSection;
@@ -31,7 +26,7 @@
 .dash_board {
   display: flex;
   flex-direction: column;
-  margin-inline: 1.25rem;
+  /* margin-inline: 1rem; */
   gap: 1.625rem;
 }
 
@@ -43,19 +38,22 @@
       "secondSection secondSection"
       "thirdSection thirdSection"
       "fourthAndFifth fourthAndFifth";
-      margin-inline: 7%;
   }
   
   .firstSection {
-    height: 9.375rem;
+    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-y: hidden; 
   }
   .secondSection {
-    height: 12.9375rem;
+    min-height: 13.125rem;
+
   }
   .fourthAndFifth{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    max-height: 26.5rem;
   }
   .fourthSection{
     width: 41.8%;
@@ -74,21 +72,25 @@
     'secondSection fourthAndFifth'
     'thirdSection fourthAndFifth'
     ;
-    grid-template-columns: 53.4% 35.6%;
-    margin-inline: 4.2%;
-
+    grid-template-columns: 64.4% 35.6%;
+    /* margin-inline: 4.2%;  */
+    /* gap: 1rem;
+    padding-right: 1rem; */
   }
   .fourthAndFifth {
     grid-area: fourthAndFifth;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-height: none;
+
+    
   }
   .firstSection {
-    height: 8.5rem;
+    height: 136px;
   }
   .secondSection {
-    height: 11.875rem;
+    min-height: auto;
   }
   .fourthSection {
     width: 100%;
